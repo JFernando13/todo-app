@@ -1,4 +1,4 @@
-import { prisma } from 'prisma'
+import { prisma } from '@/prisma'
 
 import { Toaster } from 'react-hot-toast'
 import { TodosWrapper } from '../../components/todos/todos-wrapper'

@@ -1,7 +1,7 @@
 'use client'
 import { DeleteIcon } from '@/components/icons'
 import { revalidatePath } from 'next/cache'
-import { prisma } from 'prisma'
+import { prisma } from '@/prisma'
 import { deleteTodo } from '@/actions/todoForm'
 import toast from 'react-hot-toast'
 

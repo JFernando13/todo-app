@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply grid place-content-center bg-slate-200;
+  @apply grid place-content-center min-h-screen bg-slate-200;
 }
 
 @layer utilities {
